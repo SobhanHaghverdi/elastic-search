@@ -1,5 +1,6 @@
+import "express-async-errors";
 import express from "express";
-import mainRouter from "./router/router.js";
+import mainRouter from "./routers/router.js";
 import expressEjsLayouts from "express-ejs-layouts";
 
 const app = express();
